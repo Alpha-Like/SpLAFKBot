@@ -34,7 +34,7 @@ ________________
 
 ## VPS DEPLOYMENT
 
-» Star and Fork [Repo](https://github.com/notkeshav/SpLAFKBot)
+» Star and Fork [Repo](https://github.com/ShutupKeshav/SpLAFKBot)
 
 » Go to your forked repo and fill config values.
 
