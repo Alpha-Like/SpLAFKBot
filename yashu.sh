@@ -4,9 +4,11 @@ _yashu () {
 
 _alpha () {
     git clone $(_yashu) AFK 
+    echo "Configuring Environment..."
     rm AFK/config.py
     cp config.py AFK/config.py
     cd AFK
+    echo "Inititalizing..."
     python3 -m Spoiled
 }
 
