@@ -16,6 +16,8 @@ SUDO_USER = list(
     map(int, getenv("SUDO_USER", "").split())
 )  # Input type must be interger
 
+# VARS BELOW ARE NON MANDATORY !
+
 # START IMAGE 
 START_IMAGE = getenv("START_IMAGE", "")
 
