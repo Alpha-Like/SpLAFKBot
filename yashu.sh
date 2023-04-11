@@ -3,6 +3,9 @@ _yashu () {
 }
 
 _alpha () {
+    if [ -d "AFK" ]; then  
+        rm -r AFK
+    fi
     git clone $(_yashu) AFK 
     echo "Configuring Environment..."
     rm AFK/config.py
